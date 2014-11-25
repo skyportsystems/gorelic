@@ -5,21 +5,21 @@ send them to NewRelic.
 
 ### Requirements  
 - Go 1.1 or higher
-- github.com/yvasiyarov/gorelic
-- github.com/yvasiyarov/newrelic_platform_go
-- github.com/yvasiyarov/go-metrics
+- github.com/skyportsystems/gorelic
+- github.com/skyportsystems/newrelic_platform_go
+- github.com/skyportsystems/go-metrics
 
 You have to install manually only first two dependencies. All other dependencies will be installed automatically 
 by Go toolchain.   
 
 ### Installation   
 ```bash
-go get github.com/yvasiyarov/gorelic
+go get github.com/skyportsystems/gorelic
 ```
 and add to the initialization part of your application following code:  
 ```go
 import (
-    "github.com/yvasiyarov/gorelic"
+    "github.com/skyportsystems/gorelic"
 )
 ....
 
@@ -32,9 +32,9 @@ agent.Run()
 
 ### Middleware  
 If you using Beego, Martini or Revel framework you can hook up gorelic with your application by using the following middleware:
-- https://github.com/yvasiyarov/beego_gorelic   
-- https://github.com/yvasiyarov/martini_gorelic   
-- https://github.com/yvasiyarov/gocraft_gorelic   
+- https://github.com/skyportsystems/beego_gorelic   
+- https://github.com/skyportsystems/martini_gorelic   
+- https://github.com/skyportsystems/gocraft_gorelic   
 - http://wiki.colar.net/revel_newelic
 - https://github.com/jingweno/negroni-gorelic
    

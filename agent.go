@@ -3,8 +3,8 @@ package gorelic
 import (
 	"errors"
 	"fmt"
-	metrics "github.com/yvasiyarov/go-metrics"
-	"github.com/yvasiyarov/newrelic_platform_go"
+	metrics "github.com/skyportsystems/go-metrics"
+	"github.com/skyportsystems/newrelic_platform_go"
 	"log"
 	"net/http"
 )
@@ -26,7 +26,7 @@ const (
 
 	//DefaultAgentGuid is plugin ID in NewRelic.
 	//You should not change it unless you want to create your own plugin.
-	DefaultAgentGuid = "com.github.yvasiyarov.GoRelic"
+	DefaultAgentGuid = "com.github.skyportsystems.GoRelic"
 
 	//CurrentAgentVersion is plugin version
 	CurrentAgentVersion = "0.0.6"

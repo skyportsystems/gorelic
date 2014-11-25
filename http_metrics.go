@@ -1,8 +1,8 @@
 package gorelic
 
 import (
-	metrics "github.com/yvasiyarov/go-metrics"
-	"github.com/yvasiyarov/newrelic_platform_go"
+	metrics "github.com/skyportsystems/go-metrics"
+	"github.com/skyportsystems/newrelic_platform_go"
 	"net/http"
 	"time"
 )

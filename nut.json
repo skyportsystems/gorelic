@@ -1,6 +1,6 @@
 {
   "Version": "0.0.6",
-  "Vendor": "yvasiyarov",
+  "Vendor": "skyportsystems",
   "Authors": [
     {
       "FullName": "Yuriy Vasiyarov",
@@ -11,5 +11,5 @@
     "README.md",
     "LICENSE"
   ],
-  "Homepage": "https://github.com/yvasiyarov/gorelic"
+  "Homepage": "https://github.com/skyportsystems/gorelic"
 }
