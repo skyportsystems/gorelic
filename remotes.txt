@@ -1,0 +1,4 @@
+origin	git@github.com:skyportsystems/gorelic (fetch)
+origin	git@github.com:skyportsystems/gorelic (push)
+upstream	https://github.com/yvasiyarov/gorelic.git (fetch)
+upstream	https://github.com/yvasiyarov/gorelic.git (push)
